@@ -1,0 +1,12 @@
+https://pypi.org/project/auto-py-to-exe/
+
+install pip
+  pip is a python python package installer package
+  
+install auto-py-to-exe using pip 
+        pip install auto-py-to-exe
+        
+run auto-py=to-exe in cmd
+select the file and click conver
+
+  done
