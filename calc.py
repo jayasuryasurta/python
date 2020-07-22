@@ -2,8 +2,18 @@
 def IN():
     global firstNum
     global secondNum
-    firstNum =float(input('enter first number'))
-    secondNum=float(input('enter second number'))
+    firstNum =input('\033[1;32;47m enter first number\n')
+    if(firstNum.isnumeric()):
+        float(firstNum)
+        secondNum=input('\033[1;32;47m enter second number\n')
+        if(firstNum.isnumeric() and secondNum.isnumeric()):
+           float(secondNum)
+        else:
+            print('\033[1;32;41m  pleae enter a valid Integer \n')
+            IN()
+    else:
+        print('\033[1;32;41m  pleae enter a valid Integer \n')
+        IN()
 
 def calc(operation):
     if operation == 'a'   :
